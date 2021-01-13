@@ -8,7 +8,6 @@ border: grey solid 1px;
 width: fit-content;
 height: fit-content;
 display: block;
-margin: 0 auto;
 
  h2 {
 text-align: center;
