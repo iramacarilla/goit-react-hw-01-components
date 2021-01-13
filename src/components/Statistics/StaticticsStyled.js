@@ -1,7 +1,5 @@
 import styled from "styled-components";
-function generateColor()  {
-    return '#' + Math.floor(Math.random()*16777215).toString(16)
-  }
+
 
 const Section = styled.section`
 border: grey solid 1px;
@@ -15,7 +13,6 @@ margin: 0;
  }
 
  li{
-background-color: ${generateColor()};
 display: flex;
 flex-direction: column;
 align-items: center;
